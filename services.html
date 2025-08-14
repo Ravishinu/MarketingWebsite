@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - Professional Digital Marketing Solutions</title>
+  <meta name="description" content="Explore our comprehensive range of digital marketing services including SEO, Marketing, Automation, AI Solutions, and Web Development.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body class="font-sans">
+  <!-- Navigation -->
+  <nav class="fixed w-full z-50 bg-white/95 shadow-lg">
+    <div class="container-custom py-4">
+      <div class="flex items-center justify-between">
+        <a href="/" class="text-2xl font-bold text-primary">MarketPro</a>
+        
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="/" class="font-medium hover:text-primary transition-colors">Home</a>
+          <a href="/services.html" class="font-medium text-primary">Services</a>
+          <a href="/portfolio.html" class="font-medium hover:text-primary transition-colors">Portfolio</a>
+          <a href="/about.html" class="font-medium hover:text-primary transition-colors">About</a>
+          <a href="/contact.html" class="btn-primary">Contact Us</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
+        <a href="/" class="block py-2 hover:text-primary transition-colors">Home</a>
+        <a href="/services.html" class="block py-2 text-primary">Services</a>
+        <a href="/portfolio.html" class="block py-2 hover:text-primary transition-colors">Portfolio</a>
+        <a href="/about.html" class="block py-2 hover:text-primary transition-colors">About</a>
+        <a href="/contact.html" class="block py-2 hover:text-primary transition-colors">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+    <div class="container-custom text-center">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark mb-6" data-aos="fade-up">
+        Our Services
+      </h1>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="100">
+        Comprehensive digital solutions tailored to help your business grow and succeed in the digital age.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section-padding bg-white">
+    <div class="container-custom">
+      <!-- SEO Service -->
+      <div id="seo" class="grid md:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
+        <div class="order-2 md:order-1">
+          <h2 class="heading-secondary">SEO Optimization</h2>
+          <p class="text-gray-600 mb-6">Our SEO services are designed to improve your website's visibility in search engine results, driving organic traffic and increasing your online presence.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Keyword Research and Analysis</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>On-Page SEO Optimization</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Technical SEO Improvements</span>
+            </li>
+          </ul>
+        </div>
+        <div class="order-1 md:order-2">
+          <img src="/src/images/seo-service.svg" alt="SEO Service" class="w-full">
+        </div>
+      </div>
+
+      <!-- Digital Marketing Service -->
+      <div id="marketing" class="grid md:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
+        <div>
+          <img src="/src/images/marketing-service.svg" alt="Digital Marketing Service" class="w-full">
+        </div>
+        <div>
+          <h2 class="heading-secondary">Digital Marketing</h2>
+          <p class="text-gray-600 mb-6">Strategic marketing campaigns that deliver measurable results and drive business growth through various digital channels.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Social Media Marketing</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Email Marketing Campaigns</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>PPC Advertising</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Business Automation Service -->
+      <div id="automation" class="grid md:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
+        <div class="order-2 md:order-1">
+          <h2 class="heading-secondary">Business Automation</h2>
+          <p class="text-gray-600 mb-6">Streamline your operations and increase efficiency with our intelligent automation solutions.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Workflow Automation</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Process Optimization</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Integration Services</span>
+            </li>
+          </ul>
+        </div>
+        <div class="order-1 md:order-2">
+          <img src="/src/images/automation-service.svg" alt="Business Automation Service" class="w-full">
+        </div>
+      </div>
+
+      <!-- AI Solutions Service -->
+      <div id="ai" class="grid md:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
+        <div>
+          <img src="/src/images/ai-service.svg" alt="AI Solutions Service" class="w-full">
+        </div>
+        <div>
+          <h2 class="heading-secondary">AI Solutions</h2>
+          <p class="text-gray-600 mb-6">Leverage the power of artificial intelligence to enhance your business processes and decision-making.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Machine Learning Integration</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Predictive Analytics</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>AI-Powered Automation</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Web Development Service -->
+      <div id="web" class="grid md:grid-cols-2 gap-12 items-center mb-20" data-aos="fade-up">
+        <div class="order-2 md:order-1">
+          <h2 class="heading-secondary">Web Development</h2>
+          <p class="text-gray-600 mb-6">Custom website development solutions that are responsive, user-friendly, and optimized for performance.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Custom Website Development</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>E-commerce Solutions</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Website Maintenance</span>
+            </li>
+          </ul>
+        </div>
+        <div class="order-1 md:order-2">
+          <img src="/src/images/web-service.svg" alt="Web Development Service" class="w-full">
+        </div>
+      </div>
+
+      <!-- Content Creation Service -->
+      <div id="content" class="grid md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
+        <div>
+          <img src="/src/images/content-service.svg" alt="Content Creation Service" class="w-full">
+        </div>
+        <div>
+          <h2 class="heading-secondary">Content Creation</h2>
+          <p class="text-gray-600 mb-6">Engaging content that tells your story and connects with your target audience.</p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Blog Writing</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Social Media Content</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+              </svg>
+              <span>Video Production</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section-padding bg-primary text-white">
+    <div class="container-custom text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
+      <p class="text-lg mb-8 max-w-2xl mx-auto">Let's discuss how our services can help you achieve your business goals.</p>
+      <a href="/contact.html" class="inline-block bg-white text-primary font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">Contact Us Today</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-12">
+    <div class="container-custom">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-2xl font-bold mb-4">MarketPro</h3>
+          <p class="text-gray-400">Transforming businesses through innovative digital solutions.</p>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="/" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+            <li><a href="/services.html" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+            <li><a href="/portfolio.html" class="text-gray-400 hover:text-white transition-colors">Portfolio</a></li>
+            <li><a href="/about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+            <li><a href="/contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Services</h4>
+          <ul class="space-y-2">
+            <li><a href="#seo" class="text-gray-400 hover:text-white transition-colors">SEO</a></li>
+            <li><a href="#marketing" class="text-gray-400 hover:text-white transition-colors">Digital Marketing</a></li>
+            <li><a href="#automation" class="text-gray-400 hover:text-white transition-colors">Automation</a></li>
+            <li><a href="#ai" class="text-gray-400 hover:text-white transition-colors">AI Solutions</a></li>
+            <li><a href="#web" class="text-gray-400 hover:text-white transition-colors">Web Development</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li>123 Business Street</li>
+            <li>New York, NY 10001</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Email: info@marketpro.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2024 MarketPro. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="/src/js/main.js"></script>
+</body>
+</html>
